@@ -13,6 +13,9 @@ this chapter focuses on variable declarations in Node.js, explaining the differe
 # -4 architecture
 ## file : Ch1basics/architecture.md
 node.js is single-threaded, event-driven , and non-blocking I/O model, which allows it to handle multiple connections efficiently. This chapter explains the core architecture of Node.js, including the event loop, callback functions, and how Node.js manages asynchronous operations. It provides a foundation for understanding how Node.js applications are structured and how they handle concurrency.
-# -5 functions
+# -5 event loop
+## file : Ch1basics/event_loop.md
+this chapter delves into the event loop in Node.js, explaining how it processes asynchronous operations and manages callbacks. It covers the concept of the event queue, how tasks are executed in a non-blocking manner, and the significance of the event loop in Node.js applications. This chapter is crucial for understanding how Node.js achieves its high concurrency and responsiveness.
+# -6 functions
 ## file : Ch1basics/functions_in_nodejs.md
 this chapter explores functions in Node.js, including function declarations, expressions, and arrow functions. It covers topics such as scope, closures, and the importance of `this` in different contexts, providing learners with a solid foundation for working with functions in their Node.js applications.

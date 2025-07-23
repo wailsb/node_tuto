@@ -10,6 +10,9 @@ this chapter covers various command-line commands that are useful when working w
 # -3 variables
 ## file : Ch1basics/variables_in_nodejs.md
 this chapter focuses on variable declarations in Node.js, explaining the differences between `var`, `let`, and `const`. It provides examples of how each type of variable behaves in different scopes and contexts, helping learners understand best practices for variable management in Node.js applications.
-# -4 functions
+# -4 architecture
+## file : Ch1basics/architecture.md
+node.js is single-threaded, event-driven , and non-blocking I/O model, which allows it to handle multiple connections efficiently. This chapter explains the core architecture of Node.js, including the event loop, callback functions, and how Node.js manages asynchronous operations. It provides a foundation for understanding how Node.js applications are structured and how they handle concurrency.
+# -5 functions
 ## file : Ch1basics/functions_in_nodejs.md
 this chapter explores functions in Node.js, including function declarations, expressions, and arrow functions. It covers topics such as scope, closures, and the importance of `this` in different contexts, providing learners with a solid foundation for working with functions in their Node.js applications.
